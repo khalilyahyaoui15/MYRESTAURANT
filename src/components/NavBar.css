@@ -1,0 +1,23 @@
+.navbar-button {
+  color: white;
+  margin-right: 40px;
+  margin-top:8px;
+
+}
+
+.navbar-button:hover {
+  background-color: white;
+  color: black;
+}
+.app-bar {
+  margin-top: 20px;
+  font-size: 6px;
+  height: 70px; 
+  width: 90%;
+  
+  
+}
+
+
+  
+  

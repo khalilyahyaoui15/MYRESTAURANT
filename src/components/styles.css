@@ -1,0 +1,65 @@
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.menu-item {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item-image {
+  width: 25%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.menu-item-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.menu-item-description {
+  margin-top: 5px;
+}
+
+.menu-item-actions {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.emoji-icons {
+  margin-left: 10px;
+}
+
+.emoji-icon {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+/* Customizing IconButton colors */
+.MuiIconButton-root {
+  color: #888888;
+}
+
+.MuiIconButton-root:hover {
+  background-color: transparent;
+}
+
+.MuiIconButton-root.Mui-disabled {
+  color: #cccccc;
+}
+
+.MuiIconButton-root.Mui-disabled:hover {
+  background-color: transparent;
+}
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Trois colonnes égales */
+  grid-gap: 20px; /* Espace entre les éléments */
+}
